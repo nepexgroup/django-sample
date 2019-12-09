@@ -7,11 +7,15 @@ r"""
   \_/ \_/|_|\_\\__,_| \__,_||_| |_| \__|
 
 """
-ASCII_ART = "orge font"
 
 # Use 'alpha', 'beta', 'rc' or 'final' as the 4th element to indicate release type.
 VERSION = (2, 0, 1, 'final')
-
+ASCII_ART = "orge font"
+__title__ = 'Sample'
+__version__ = VERSION
+__author__ = 'Sandesh Rana'
+__license__ = 'BSD 3-Clause'
+__copyright__ = 'Copyright 2011-2019 Nepex Group'
 
 def get_short_version():
     return '%s.%s' % (VERSION[0], VERSION[1])
